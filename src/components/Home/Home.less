@@ -1,0 +1,43 @@
+@import url("../../settings/StyleVariables.less");
+
+.home-wrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    box-sizing: border-box;
+    padding: 0 10px;
+
+    .preserve-3d {
+        transform-style: preserve-3d;
+    }
+
+    .parallax-perspective {
+        perspective-origin: 50% 50%;
+        will-change: perspective-origin;
+    }
+
+    .stage-perspective {
+        perspective: 100vw;
+        transform: translateZ(0);
+    }
+
+    .stage-container {
+        // width: 75%;
+        // @media screen and (max-width: @mobile) {
+        //     width: 100%;
+        // }
+        width: 100%;
+
+        .stage {
+            width: 100%;
+
+            .project-list {
+                list-style: none;
+                text-align: right;
+                padding: 0;
+            }
+        }
+    }
+}
