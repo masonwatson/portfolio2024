@@ -2,9 +2,9 @@
 @brat-green: #bdce39;
 
 @4k: 3840px;
-@1440p: 720px;
-@1080p: 720px;
-@720p: 720px;
+@1440p: 2560px;
+@1080p: 1920px;
+@720p: 1280px;
 @mobile: 430px;
 
 @font-face {
@@ -61,4 +61,14 @@
 	font-style: normal;
 	font-weight: normal;
 	src: url("../assets/fonts/Montserrat-BoldItalic.ttf");
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

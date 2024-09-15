@@ -62,13 +62,10 @@
             ]
         }
     ],
-    "typed-text" : {
-        "main-text": "Software En",
-        "trailing-text": [
-            "gineer.", 
-            "joyer.", 
-            "gager.", 
-            "chanter?"
-        ]
-    }
+    "trailingText" : [
+        "gineer.", 
+        "joyer.", 
+        "gager.", 
+        "chanter?"
+    ]
 }

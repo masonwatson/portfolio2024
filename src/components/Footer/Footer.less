@@ -1,0 +1,38 @@
+@import url("../../settings/StyleVariables.less");
+
+.footer {
+    display: flex;
+    position: fixed;
+
+    box-sizing: border-box;
+    margin: 75px;
+
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+
+    bottom: 0;
+
+    .left-container {
+        display: flex;
+        width: 450px;
+        justify-content: space-between;
+        
+        .name {
+            font-family: Poppins-ExtraBold;
+            letter-spacing: 0.45rem;
+        }
+        .title {
+
+            .blinking-cursor::after {
+              content: "|";
+              animation: blink 1.2s step-start infinite;
+            }
+        }
+
+        .left, .right {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

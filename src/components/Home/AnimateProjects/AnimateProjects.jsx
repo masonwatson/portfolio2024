@@ -25,7 +25,7 @@ function AnimateProjects({children}) {
                 const domNode = child.ref.current;
                 const firstBox = prevBoundingBox[child.key];
                 const lastBox = boundingBox[child.key];
-                const changeInY = firstBox.top - lastBox.top;
+                const changeInY = firstBox?.top - lastBox?.top;
 
                 if (changeInY) {
                     requestAnimationFrame(() => {
