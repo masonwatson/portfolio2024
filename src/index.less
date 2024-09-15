@@ -6,6 +6,7 @@
   font-weight: 400;
   
   background-color: @brat-green;
+  overflow-x: hidden;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +29,7 @@ a {
 html, body {
   overscroll-behavior: auto;
   box-sizing: border-box;
+  scrollbar-gutter: stable;
 }
 
 h1, h2, h3, h4, h4, h5, h6 {
@@ -39,4 +41,8 @@ h1, h2, h3, h4, h4, h5, h6 {
 p {
   margin: 0;
   line-height: 1.2em;
+}
+
+#root {
+  width: 100vw;
 }

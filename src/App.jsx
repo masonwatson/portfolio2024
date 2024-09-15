@@ -23,11 +23,14 @@ function App() {
         setProjectsData(projectsData.sort((a, b) => {
             return Number(b.id === activeID) - Number(a.id === activeID);
         }));
+        
         setActiveItemID(activeID);
+
         window.scrollTo({
             top: 0,
             behavior: "smooth"
         });
+
         setProjectsData(projectsData.filter((proj) => proj.id === activeID));
     }
 
