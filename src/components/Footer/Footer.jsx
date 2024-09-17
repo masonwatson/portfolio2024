@@ -9,6 +9,8 @@ function Footer() {
             <div className="info-container">
                 <div className="sub-container">
                     <span className="name">MASON WATSON</span>
+                </div>
+                <div className="sub-container">
                     <div className="title">
                         <span className="info">software en{headerText}</span>
                         <span className="blinking-cursor" />
@@ -16,6 +18,8 @@ function Footer() {
                 </div>
                 <div className="sub-container">
                     <span className="info">austin, texas</span>
+                </div>
+                <div className="sub-container">
                     <span className="info">masonxwork@gmail.com</span>
                 </div>
             </div>
